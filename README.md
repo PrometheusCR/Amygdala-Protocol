@@ -34,3 +34,5 @@ cd "C:\Workspace\Amygdala"
 Unblock-File -Path .\Amygdala_Intel.ps1
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 .\Amygdala_Intel.ps1
+
+## 🎥 Demo: Amygdala Protocol Run: https://youtu.be/3exjn3efiZ4
