@@ -36,3 +36,26 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 .\Amygdala_Intel.ps1
 
 ## 🎥 Demo: Amygdala Protocol Run: https://youtu.be/3exjn3efiZ4
+
+## 🛡️ Amygdala Protocol System Event – July 14, 2025
+
+**Summary:**  
+On July 14, 2025, following a system reboot intended to resolve a hardware issue (printer connectivity), Amygdala Protocol executed a deferred maintenance cycle. During this process, the system displayed a black screen for approximately 30 minutes before requiring a manual power-down and BIOS inspection. Upon restart, the BIOS reflected the latest firmware version, and Windows booted successfully.
+
+**Details:**  
+- **Protocol**: Amygdala Protocol  
+- **Trigger**: Manual reboot  
+- **Actions Executed**:
+  - BIOS-level update (confirmed post-reboot)
+  - Custom drivers (`ipf_cpu`, `ipf_acpi`, `ipf_lf`) loaded via demand-start behavior
+  - No persistent system errors post-execution  
+- **Observed Anomaly**:
+  - Extended black screen duration during protocol execution
+  - Event ID 56 registered by `Application Popup`, referencing `ipf_cpu` with incomplete message metadata
+- **Outcome**:  
+  System integrity preserved; BIOS updated successfully; no recurring errors detected across logs or runtime.
+
+**Conclusion:**  
+Amygdala Protocol completed its cycle and executed low-level actions as intended. The temporary screen blackout aligns with BIOS-level operations and no further anomalies have been detected. This event is documented for transparency and future reference.
+
+
